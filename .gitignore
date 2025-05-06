@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+frontend/node_modules/
+backend/node_modules/
+contracts/node_modules/
+
+# Build output
+dist/
+build/
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Hardhat
+contracts/artifacts/
+contracts/cache/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Coverage
+coverage/
+*.lcov
+
+# Test
+*.test.ts
+*.test.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
